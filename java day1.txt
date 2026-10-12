@@ -1,0 +1,30 @@
+1.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+        System.out.println("Welcome to Programming.");
+        System.out.println("My journey starts today.");
+    }
+}
+2.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("College: ABC Engineering College");
+        System.out.println("Department: Computer Science");
+        System.out.println("Course: Java Programming");
+    }
+}
+3.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Java is simple Java is powerful");
+    }
+}
+4.
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Name\t: Arun");
+        System.out.println("Course\t: Java");
+        System.out.println("Level\t: Beginner");
+    }
+}
