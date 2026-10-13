@@ -1,0 +1,54 @@
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int largest = (a >= b && a >= c) ? a :
+            (b >= a && b >= c) ? b : c;
+        System.out.println(largest);
+    }
+}
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println((n % 2 == 0) ? "Even" : "Odd");
+        sc.close();
+    }
+}
+
+import java.util.Scanner;4
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println((a == b) ? "Equal" : (a > b) ? a : b);
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println((n > 0) ? "Positive" : (n < 0) ? "Negative" : "Zero");
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        System.out.println((age >= 18) ? "Eligible" : "Not Eligible");
+        sc.close();
+    }
+}
