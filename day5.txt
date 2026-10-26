@@ -1,0 +1,37 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                count++;
+            }
+        }
+        if (count == 2) {
+            System.out.println("prime number");
+        } else {
+            System.out.println("Not a prime Number");
+        }
+    }
+}
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int temp = n, sum = 0;
+        while (temp > 0) {
+            int digit = temp % 10;
+            sum = sum + digit * digit * digit;
+            temp = temp / 10;
+        }
+        if (sum == n)
+            System.out.println("Armstrong Number");
+        else
+            System.out.println("Not Armstrong Number");
+        sc.close();
+    }
+}
