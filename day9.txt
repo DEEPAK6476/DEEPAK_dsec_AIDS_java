@@ -1,0 +1,35 @@
+
+class Main {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("hello");
+        sb.append("java");
+        System.out.println(sb);
+        StringBuilder ab = new StringBuilder("hello");
+        ab.insert(1, "j");
+        System.out.println(ab);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("hello");
+        sb.insert(1,"i");
+        System.out.println(sb);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("hello world");
+        sb.delete(5,11);
+        System.out.println(sb);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("hello world");
+        sb.reverse ();
+        System.out.println(sb);
+    }
+}
